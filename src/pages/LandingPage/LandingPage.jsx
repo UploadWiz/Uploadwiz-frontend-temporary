@@ -267,11 +267,9 @@ const LandingPage = () => {
             flex="1"
           >
             <iframe
-              src="https://www.youtube.com/embed/wd_zfAApt_0?autoplay=0&rel=0&controls=1"
-              title="YouTube Video"
-              frameBorder="0"
-              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              src="https://drive.google.com/file/d/1kE9tmtxsFxCYF-HJcT12VcO7SDLGiLRz/preview"
+              title="Google Drive Video"
+              allow="autoplay; clipboard-write; encrypted-media; gyroscope;"
               style={{
                 width: "100%",
                 height: "auto",
@@ -367,7 +365,6 @@ const LandingPage = () => {
               alignItems="center"
             >
               <Box textAlign="center" m={4} flex="1" width={"30%"}>
-                Reason 1
                 <Flex
                   bg="white"
                   color="black"
@@ -388,7 +385,7 @@ const LandingPage = () => {
               </Box>
 
               <Box textAlign="center" m={[0, 4]} flex="1" width={"30%"}>
-                Reason 2
+                Features
                 <Flex
                   bg="white"
                   color="black"
@@ -409,7 +406,6 @@ const LandingPage = () => {
               </Box>
 
               <Box textAlign="center" m={4} flex="1" width={"30%"}>
-                Reason 3
                 <Flex
                   bg="white"
                   color="black"
